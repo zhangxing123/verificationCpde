@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#top{
+    width: 100%;
+    height: 70px;
+    background-color: #0b97c4;
+}
+#title{
+    width: 200px;
+    height: 70px;
+    margin: 0 auto;
+    color: #ffffff;
+    font:  small-caps  bold  20px/3.0em  "微软雅黑",sans-serif;
+    letter-spacing: 6px;
+}
+
+#main{
+    width: 1000px;
+    height:100%;
+    margin: 0 auto;
+    background-color: #999999;
+}
+.items {float: left;
+    margin: 50px 50px;
+   width: 400px;
+    list-style: none;
+}
+.items_one{
+margin-left: 330px;
+}
+.in_text{
+    height: 25px;
+    vertical-align:middle;
+   margin-top: -20px;
+}
+.sure_bt{
+    margin-top: -20px;
+    vertical-align:middle;
+    width: 60px;
+    height: 30px;
+}
+.img{
+width: 100px;
+    height: 30px;
+}
+#select_number{
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    color: #ffffff;
+}
+#eidt_num{
+    width: 20px;
+}
+#commit_bt{
+    margin-left: 10px;
+    width: 50px;
+}
+#errormsg{
+    height: 50px;
+    position: fixed;
+    top:600px;
+    left:50%;
+    background-color: transparent; ;
+}
